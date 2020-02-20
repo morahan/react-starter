@@ -4,8 +4,13 @@ class Movies extends React.Component {
         super(props);
     }
     render(){
+        return (
+            <MovieList
+            movie={movies[i]}
+            />
+        )
 
-    }
+    };
 }
 
     (

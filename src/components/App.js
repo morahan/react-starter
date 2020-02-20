@@ -4,8 +4,8 @@ import "../main.css";
 class App extends React.Component {
   render(){
     return(
-    <div className="header">
-      Starter Appppppp component - hello there
+    <div className="description">
+      Starter App component - hello there
     </div>
   )}
 }

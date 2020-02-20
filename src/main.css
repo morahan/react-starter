@@ -1,4 +1,31 @@
 .header {
-    color: blue;
-    border: 2px black;
+    color: white;
+    background-color: black;
+    border-radius: 17px;
+    margin: 23px;
+    padding: 17px;
+    text-align: center;
+}
+.description {
+    text-align: center;
+    color: #44ace8;
+}
+.displayWindow {
+    display: grid;
+    background-color: whitesmoke;
+    border-radius: 17px;
+    margin: 37px 17px 0px 17px;
+    padding: 0px 0px 47px 0px 
+}
+
+.displayTitles {
+    display: grid;
+    background-color: white;
+    border-radius: 17px;
+    margin: 23px;
+    padding: 17px;
+}
+
+body {
+    background-color: lightgray;
 }
