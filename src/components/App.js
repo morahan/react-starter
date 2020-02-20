@@ -1,10 +1,11 @@
 import React from 'react';
+import "../main.css";
 
 class App extends React.Component {
   render(){
     return(
-    <div>
-      Starter App component - hello there
+    <div className="header">
+      Starter Appppppp component - hello there
     </div>
   )}
 }
