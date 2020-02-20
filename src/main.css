@@ -6,25 +6,65 @@
     padding: 17px;
     text-align: center;
 }
-.description {
+
+.header2 {
     text-align: center;
     color: #44ace8;
 }
+
 .displayWindow {
     display: grid;
     background-color: whitesmoke;
     border-radius: 17px;
     margin: 37px 17px 0px 17px;
-    padding: 0px 0px 47px 0px 
+    padding: 0px 0px 47px 0px;
 }
 
-.displayTitles {
+.movieList {
     display: grid;
     background-color: white;
     border-radius: 17px;
     margin: 23px;
     padding: 17px;
 }
+
+.movieTitle {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: grey;
+    color: #44ace8;
+    align-content: center;
+    margin: 25px;
+    border-radius: 17px;
+}
+
+.movieName {
+    grid-column: 1;
+    background-color: whitesmoke;
+    color: #44ace8;
+    text-align: center;
+    margin: 7px;
+    padding: 13px 7px;
+    border-radius: 17px;
+}
+
+.movieDescription {
+    grid-column: 2;
+    grid-template-columns: 1fr 2fr;
+    background-color: black;
+    text-align: center;
+    color: #44ace8;
+    margin: 7px;
+    padding: 13px;
+    border-radius: 17px;
+}
+
+
+
+
+/* .movie {
+
+} */
 
 body {
     background-color: lightgray;
