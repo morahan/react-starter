@@ -23,7 +23,7 @@
 .movieList {
     display: grid;
     background-color: white;
-    border-radius: 17px;
+    border-radius: 47px;
     margin: 23px;
     padding: 17px;
 }
@@ -34,8 +34,9 @@
     background-color: grey;
     color: #44ace8;
     align-content: center;
-    margin: 25px;
-    border-radius: 17px;
+    margin: 13px;
+    padding: 7px;
+    border-radius: 57px 0px 51px 57px;
 }
 
 .movieName {
@@ -43,9 +44,9 @@
     background-color: white;
     color: #44ace8;
     text-align: center;
-    margin: 7px;
+    margin: 7px -7px 7px 7px;
     padding: 7px;
-    border-radius: 17px;
+    border-radius: 100px;
 }
 
 .movieDescription {
@@ -54,9 +55,9 @@
     background-color: white;
     text-align: center;
     color: #44ace8;
-    margin: 7px 7px;
+    margin: 7px 7px 7px 0px;
     padding: 7px;
-    border-radius: 17px;
+    border-radius: 77px 0px 77px 77px;
 }
 
 .search {

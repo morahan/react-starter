@@ -9,39 +9,42 @@ class Search extends React.Component {
         this.state = {
             searchInput: ''
         }
-        this.handleChange = this.handleChange.bind(this);
-        this.searchData = this.searchData.bind(this);
+        // this.handleChange = this.handleChange.bind(this);
+        // this.searchData = this.searchData.bind(this);
     }
 
-    handleChange(e) {
-        this.setState({
-            searchInput: e.target.value  
-        })
-    }
+    // handleChange(e) {
+    //     this.setState({
+    //         searchInput: e.target.value  
+    //     })
+    // }
 
-    searchData() {
-        let results = [];
-        let input = this.state.searchInput;
-        movies.filter(movie => {
-            if (movie.title.toLowerCase().includes(input.toLowerCase())) {
-                results.push(movie)
-            }
-        })
+    // searchData() {
+    //     let results = [];
+    //     let input = this.state.searchInput;
+    //     movies.filter(movie => {
+    //         if (movie.title.toLowerCase().includes(input.toLowerCase())) {
+    //             results.push(movie)
+    //         }
+    //     })
+
        
-        console.log(results)
-        if (results.length === 0) {
-            return "Sorry, your search term is not a top 10 Netflix movie!-(";
-        } else {
-            return results;
-        }
-    }
+    //     console.log(results)
+    //     if (results.length === 0) {
+    //         return "Sorry, your search term is not a top 10 Netflix movie!-(";
+    //     } else {
+    //         return results;
+    //     }
+
+    //     this.setState({ movies: [...this.state.movies, newMovie] });
+    // }
 
 
     render(){
         return(
             <div className="search">
-                <input type="text" placeholder="Search for a movie" className="searchInput" onChange={this.handleChange}/>
-                <button className="searchSubmit" onClick={this.searchData}>Submit</button>
+                <input type="text" placeholder="Search for a movie" className="searchInput" onChange={this.props.handleChange}/>
+                <button className="searchSubmit" onClick={this.props.searchData}>Submit</button>
 
                 <div className="searchResults">
                     {/* {searchData} */}
@@ -51,8 +54,5 @@ class Search extends React.Component {
         )
     }
 }
-
-
-
 
 export default Search;

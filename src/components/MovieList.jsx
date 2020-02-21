@@ -2,7 +2,7 @@ import React from 'react';
 import Movie from './Movie.jsx';
 import movies from '../data.js';
 
-const MovieList = () => (
+const MovieList = ({ movies }) => (
     <div className="movieList">
         {movies.map((movie, i) => (
             <Movie 
