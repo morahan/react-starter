@@ -40,26 +40,27 @@
 
 .movieName {
     grid-column: 1;
-    background-color: whitesmoke;
+    background-color: white;
     color: #44ace8;
     text-align: center;
     margin: 7px;
-    padding: 13px 7px;
+    padding: 7px;
     border-radius: 17px;
 }
 
 .movieDescription {
     grid-column: 2;
     grid-template-columns: 1fr 2fr;
-    background-color: black;
+    background-color: white;
     text-align: center;
     color: #44ace8;
-    margin: 7px;
-    padding: 13px;
+    margin: 7px 7px;
+    padding: 7px;
     border-radius: 17px;
 }
 
 .search {
+    padding-left: 23px;
     display: grid;
     grid-template-columns: 5fr 1fr;
     margin: 13px;
@@ -70,10 +71,6 @@
     grid-column: 1;
     height: 37px;
     border-radius: 13px;
-    
-    
-    
-
 }
 
 .searchInput[type=text] {
@@ -87,11 +84,12 @@
 }
 
 .searchInput[type=text]:focus {
-   
+
   border: 3px solid#44ace8;
 }
 
 .searchSubmit {
+    
     font-size: 17px;
     grid-column: 2;
     background-color: #44ace8;
@@ -104,7 +102,7 @@
     grid-column: 2;
     background-color: #3898cf;
     border-radius: 11px;
-    box-shadow: 3px 7px 5px lightgray;
+    box-shadow: 3px 7px 3px lightgray;
 
 }
 
@@ -123,5 +121,5 @@
 } */
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
